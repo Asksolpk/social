@@ -1,0 +1,84 @@
+body{
+    background-color: hsl(0 , 0%, 8%);
+    /* margin: 0; */
+    /* padding: 0; */
+    color: hsl(0 , 0%, 100%);
+    align-items: center;
+    font-family: "Inter",Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+
+}
+.Card{
+    background-color: hsl(0 , 0%, 12%);
+    width: 350px;
+    height: 600px;
+    padding: 35px;
+    text-align: center;
+    border-radius: 20px;
+}
+img{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+}
+h2{
+    font-size: 24px;
+    font-weight: 700;
+}
+.Location{
+    font-size: 14px;
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+}
+.Bio{
+    font-size: 14px;
+    font-weight: 400;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-weight: bolder;
+}
+.btn{
+    text-decoration: none;
+    color: hsl(0 , 0%, 100%);
+    background-color: hsl(0 , 0%, 16%);
+    padding: 22px 12px;
+    border-radius: 6px;
+    font-weight: 400;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0 , 0%, 8%);
+    font-weight: bolder;
+}
+@media only screen and (max-width: 500px) {
+    
+    .Card{
+        background-color: hsl(0 , 0%, 12%);
+        width: 250px;
+        height: 500px;
+    
+        text-align: center;
+        border-radius: 20px;
+    }
+    .button{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-weight: bolder;
+    }
+    .btn{
+        text-decoration: none;
+        color: hsl(0 , 0%, 100%);
+        background-color: hsl(0 , 0%, 16%);
+        padding: 12px 8px;
+        border-radius: 10px;
+        font-weight: 400;
+    }
+}
